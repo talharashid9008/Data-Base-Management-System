@@ -1,0 +1,85 @@
+<Html>  
+    <head>   
+        <title>  
+        HAMARAY BACHCHAY
+        </title>  
+        <style>
+      
+            table, th, td {
+                border: 4px Solid black;
+                text-align:left;
+            }
+            img {
+  border-radius: 80%;
+}
+        </style>
+    </head>  
+    <body bgcolor="87ADDE">  
+        <br>
+
+
+
+        <table style="width: 30% ;height: 50px; background-color:burlywood;" align="center">
+            <tr>
+            <td><h2 style="text-align: center;">HAMARAY BACHCHAY</h2></td>
+            </tr>
+        </table>
+        <h3 style="text-align: center;"><img src="stu.jpg" width ="500" height ="500" alt="Avatar" > </h3>
+        <table style="width: 30% ;height: 50px; background-color:burlywood;" align="center">
+            <tr>
+                <td><h2 style="text-align: center;">Student Registration Form</h2></td>
+            </tr>
+        </table>
+          
+        
+
+    <form action="http://localhost/DB/student.php" method="post">
+
+    <table style="width: 75% ;height: 450px; background-color:burlywood;" align="center">
+        <tr>
+            <th style="text-align:center;">Student Photo : </th>
+            <td><input type="file" id="myFile" name="filename"></td>
+        </tr> 
+    <tr>
+        <th style="text-align:center;">Firstname : </th>   
+        <td><input type="text" name="fname" required> </td>
+    </tr>
+<br>
+
+    <tr>
+        <th style="text-align:center;">Lastname : </th>    
+        <td><input type="text" name="lname" required> </td>
+    </tr> 
+<br>  
+
+    <tr>   
+        <th style="text-align:center;">Gender : </th>
+        <td><input type="radio" name="gender" value="Male"/> Male
+        <input type="radio" name="gender" value="Female"/> Female
+        </td>
+    </tr> 
+<br>  
+
+    <tr>   
+        <th style="text-align:center;">Age : </th>
+        <td><input type="number" name="age" value="1"/></td>
+    </tr> 
+    <br>  
+
+    
+    <tr>
+        <th style="text-align:center;">Date Of Birth : </th>
+        <td>
+        <input type="date" name="dob" 
+        placeholder="dd-mm-yyyy" value=""
+        min="2000-01-01" max="2021-01-01">
+        </td>
+    </tr>
+<br> 
+    </table>
+    <h3><a href="hmaray_bacchay.html"> <input type="button" value="Back"/></a>
+        <h3 style="text-align: right;"><input type="submit" value="Submit"/></h3>
+    </h3>
+    </form> 
+    </body>  
+    </html>  

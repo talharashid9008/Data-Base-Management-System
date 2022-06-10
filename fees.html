@@ -1,0 +1,51 @@
+<Html>  
+    <head>  
+        <title>  
+        HAMARAY BACHCHAY
+        </title>  
+    </head>  
+    <body bgcolor="87ADDE">  
+        <br>
+
+    <table style="width: 30% ;height: 50px; background-color:burlywood; border: 4px Solid black;" align="center">
+        <tr>
+        <td><h2 style="text-align: center;">FEE SUBMISSION FORM</h2></td>
+        </tr>
+    </table>
+
+<br>
+
+    <form ACTION="http://localhost/DB/fees.php" method="post">
+        <table style="width: 50% ;height: 150px; background-color:burlywood; border: 4px Solid black;" align="center">
+            <tr>
+                <th style="text-align:center;">Student ID : </th>   
+                <td><input type="text" id="username" name="id" required> </td>
+            </tr>
+        <br>
+            <tr>
+                <th style="text-align:center;">Total Fees: </th>    
+                <td><input type="number" name="fees" required> </td>
+            </tr> 
+        <br>
+            <tr>
+                <th style="text-align:center;">Fees Paid: </th>    
+                <td><input type="radio" name="paid" value="full">Fully Paid
+                    <input type="radio" name="paid" value="half">Half Paid</td>
+            </tr> 
+        </table>
+        <br>
+
+        <table style="width: 30% ;height: 50px;" align="center">
+        
+            <tr>
+                <td><h3 style="text-align: left;"><a href="admin1.html">
+                <input type="button" value="Back"/>
+                </a></h3></td>
+
+                <td><h3 style="text-align: right;"><input type="submit" value="Submit"/></h3></td>
+            </tr>
+        </table>
+                
+    </form> 
+    </body>  
+    </html>  

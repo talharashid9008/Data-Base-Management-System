@@ -1,0 +1,62 @@
+<Html>  
+    <head>
+        <link rel="stylesheet" href="sty.css">   
+        <title>  
+        HAMARAY BACHCHAY
+        </title>  
+        <style>
+      
+            table, th, td {
+                border: 4px Solid black;
+                text-align:left;
+            }
+        </style>
+    </head>  
+    <body bgcolor="87ADDE">  
+        <br>
+
+    <table style="width: 30% ;height: 50px; background-color:burlywood;" align="center">
+        <tr>
+        <td><h2 style="text-align: center;">CLASS ASSIGNMENT FORM</h2></td>
+        </tr>
+    </table>
+
+    <form action="http://localhost/DB/assignment.php" method="post">
+    <table style="width: 60% ;height: 450px; background-color:burlywood;" align="center">
+    <tr>
+        <th style="text-align:center;">Student ID : </th>  
+        <td><input type="number" name="sid" required> </td>
+    </tr>
+<br>
+
+    <tr>
+        <th style="text-align:center;">Current Class : </th>    
+        <td><input type="number" name="cclass" required> </td>
+    </tr> 
+<br>  
+
+    <tr>   
+        <th style="text-align:center;">New Class : </th>
+        <td><input type="number" name="nclass" required> </td>
+    </tr> 
+<br>  
+    <tr>   
+        <th style="text-align:center;">New Section : </th>
+        <td><input type="number" name="sec" required> </td>
+    </tr> 
+<br>
+    <tr>
+        <th style="text-align:center;">Reason For Changes : </th>
+        <td><textarea id="input" name="reason" rows="2" cols="50" required></textarea></td>
+        </td>
+    </tr>
+    <tr>
+        <th  style="text-align:center;">Approved By : </th>
+        <td><input type="text" name="app" required> </td>
+    </tr>
+<br> 
+    </table>
+            <h3 style="text-align: center;"><a href="admin1.html"><input type="button" value="Back"/></a>        <input type="submit" value="Submit"/></h3>
+    </form> 
+    </body>  
+    </html>  

@@ -1,0 +1,64 @@
+<Html>  
+    <head>
+        <link rel="stylesheet" href="sty.css">   
+        <title>  
+        HAMARAY BACHCHAY
+        </title>  
+        <style>
+      
+            table, th, td {
+                border: 4px Solid black;
+                text-align:left;
+            }
+        </style>
+    </head>  
+    <body bgcolor="87ADDE">  
+        <br>
+
+    <table style="width: 30% ;height: 50px; background-color:burlywood;" align="center">
+        <tr>
+        <td><h2 style="text-align: center;">Adding a New Class</h2></td>
+        </tr>
+    </table>
+
+    <form action="http://localhost/DB/class.php" method="post">
+    <table style="width: 60% ;height: 450px; background-color:burlywood;" align="center">
+    <tr>
+        <th style="text-align:center;">Class ID : </th>  
+        <td><input type="number" name="cid" required> </td>
+    </tr>
+<br>
+
+    <tr>
+        <th style="text-align:center;">Upper age : </th>    
+        <td><input type="number" name="uage" required> </td>
+    </tr> 
+<br>  
+
+    <tr>   
+        <th style="text-align:center;">Lower age : </th>
+        <td><input type="number" name="lage" required> </td>
+    </tr> 
+<br>  
+    
+    <tr>
+        <th style="text-align:center;">Section Title(A,B,C etc) : </th>
+        <td><input type="text" maxlength='1' name="st" required> </td>
+        </td>
+    </tr>
+    <tr>
+        <th  style="text-align:center;">Course Code : </th>
+        <td><input type="text" name="cc" required> </td>
+    </tr>
+<br> 
+    <tr>
+        <th  style="text-align:center;">Course Title : </th>
+        <td><input type="text" name="ct" required> </td>
+    </tr>
+    <br> 
+    </table>
+            <h3><a href="admin1.html"> <input type="button" value="Back"/></a>
+            <h3 style="text-align: right;"><input type="submit" value="Submit"/></h3>
+    </form> 
+    </body>  
+    </html>  

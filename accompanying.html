@@ -1,0 +1,76 @@
+<Html>  
+    <head>
+        <link rel="stylesheet" href="sty.css">   
+        <title>  
+        HAMARAY BACHCHAY
+        </title>  
+    </head>  
+    <body bgcolor="87ADDE">  
+        <br>
+
+    <table style="width: 50% ;height: 50px;" align="center">
+        <tr>
+        <td><h2 style="text-align: center;">STUDENT ACCOMPANYING FORM</h2></td>
+        </tr>
+    </table>
+
+    <form ACTION="http://localhost/DB/accompanying.php" method="post">
+        <table style="width: 50% ;height: 150px;" align="center">
+            <tr>
+                <th style="text-align:left;" colspan="2">Student Details : </th>
+            </tr>
+            <tr>
+                <th style="text-align:center;">Student ID : </th>
+                <td><input type="number" name="sid" required> </td>
+            </tr>
+            <tr>
+                <th style="text-align:center;">Student Name : </th>
+                <td><input type="text" name="name" required> </td>
+            </tr>
+            <tr>
+                <th style="text-align:center;">Student Class : </th>
+                <td><input type="number" name="class" required> </td>
+            </tr>
+        <br>
+        </table>
+        <hr>
+        <table style="width: 50% ;height: 150px;" align="center">
+            <tr>
+                <th style="text-align:left;" colspan="2">Guardian Details : </th>
+            </tr>
+            <tr>
+                <th style="text-align:center;">Guardian CNIC : </th>
+                <td><input type="number" name="gid" required> </td>
+            </tr>
+            <tr>
+                <th style="text-align:center;">Guardian Name : </th>
+                <td><input type="text" name="gname" required> </td>
+            </tr>
+            <tr>   
+                <th style="text-align:center;">Gender : </th>
+                <td><input type="radio" name="gender" value="Male"/> Male
+                <input type="radio" name="gender" value="Female"/> Female
+                </td>
+            </tr> 
+            <tr>
+                <th style="text-align:center;">Relationship with Student  : </th>
+                <td><input type="text" name="relation" required> </td>
+            </tr>
+            <tr>
+                <th style="text-align:center;">Pregnant : </th>
+                <td><input type="radio" name="preg" value = "yes" required>Yes
+                <input type="radio" name="preg" value = "no" required>No </td>
+            </tr>
+            <tr>
+                <th style="text-align:center;">Reason For Absense : </th>
+                <td><textarea id="input" name="reason" rows="2" cols="50" required></textarea></td>
+            </tr>
+        <br>
+        </table>
+        <h3 style="text-align: left;"><a href="admin1.html">
+            <input type="button" value="Back"/>
+            </a></h3>
+        <h3 style="text-align: center;"><input type="submit" value="Submit"/></h3>
+    </form> 
+    </body>  
+    </html>
